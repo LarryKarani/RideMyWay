@@ -14,42 +14,42 @@ header{
     border-bottom:#e8491d 3px solid; 
   }
 
-  header a{
+  header a, #nav a{
     color: #ffffff;
     text-decoration: none;
     text-transform: uppercase;
     font-size: 16px;
   }
 
-  header ul{
+  header ul, #nav ul{
     margin: 0px;
     padding: 0px;
   }
 
-  header li{
+  header li, #nav li{
     float:left;
     display: inline;
-    padding:0 20px 0 20px;
+    padding:0 10px 0 5px;
   }
   header #branding{
     float: left;
   }  
 
-  hearder branding h1{
+  hearder #branding h1{
     margin: 0;
   }
   
-  header nav{
+  header nav, #nav{
     float: right;
     margin-top: 10px;
   }
 
-  header a:hover{
+  header a:hover , #nav a:hover{
     color:#cccc;
     font-weight: bold;
   }
 
-  header .current a{
+  header .current a, #nav .current a{
     color: #e8491d;
     font-weight: bold;
   }
@@ -182,7 +182,7 @@ input[type=submit]{
 .wrap{
   width:80%;
   margin: auto;
-  margin-top:30px;
+  margin-top:10px;
   text-align: center;
 }
 
@@ -206,4 +206,52 @@ input[type=submit]{
   padding: 5px;
   font-weight: bold;
   margin-bottom: 10px;
+}
+.row {
+  height:80%;
+  background-color:silver;
+  width: 80%;
+  margin:0 auto;
+}
+
+.pic_base{
+
+  background-color:blueviolet;
+  padding: 0;
+}
+
+#profile_pic{
+  border-radius: 20%;
+  border: 2px solid #34495e;
+  box-shadow: 0 2px 2px black;
+  box-sizing: border-box;
+  margin-top: 20px;
+  margin-left:5px;
+  background: red;
+  
+  
+}
+
+#title {
+  font-family: verdana;
+  margin-left:40px;
+  margin-bottom:2px;
+  color:orangered;
+  font-family: serif;
+  margin-top: 50px;
+}
+#nav{
+  margin-top:50px;
+ 
+}
+
+.content_base {
+  text-align: center;
+
+}
+
+
+#pic{
+  float: left;
+
 }
