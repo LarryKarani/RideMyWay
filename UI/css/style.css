@@ -116,8 +116,7 @@ header{
     font-weight: bold;
     letter-spacing: 1px; 
     margin: auto;
-    /* text-align: center; */
-
+    
 
 
 }
@@ -160,11 +159,6 @@ input[type=submit]{
 #img{
     text-align: center;  
 }
-
-/* #hidden{ */
-    /* display: none; */
-/* } */
-
 
 
 .details input[type=submit]{
