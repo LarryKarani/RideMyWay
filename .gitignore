@@ -1,0 +1,12 @@
+Api/m-venv/*
+*.vscode
+*.coverage
+Api/__pycache__/*
+
+*.pytest_cache
+*.pickle
+m-venv
+*.pyc
+*.DS_Store
+venv/
+UI/debug.log
