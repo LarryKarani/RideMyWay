@@ -1,5 +1,5 @@
 body{
-    background-color:grey;
+    background-color:#17B890;
     padding: 0px;
     margin: 0px;
     margin-top:30px;
@@ -9,9 +9,12 @@ body{
 header{
     background-color: #35424a;
     color: #ffffff;
-    padding-top: 30px;
     min-height: 70px;
     border-bottom:#e8491d 3px solid; 
+    width: 80%;
+    margin:0 auto;
+    margin-bottom:10px;
+  
   }
 
   header a, #nav a{
@@ -29,7 +32,8 @@ header{
   header li, #nav li{
     float:left;
     display: inline;
-    padding:0 10px 0 5px;
+    padding:0 30px 0 5px;
+  
   }
   header #branding{
     float: left;
@@ -189,7 +193,7 @@ input[type=submit], #xb{
 .card{
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.6);
   transition:0.4s;
-  width:50%;
+  width:30%;
   font-family: sans-serif;
   margin:0 auto;
   background: #ffffff;
@@ -197,6 +201,8 @@ input[type=submit], #xb{
   overflow: hidden;
   margin-bottom: 10px;
   padding-bottom: 10px;
+
+  float: left;
 }
 
 .card button{
@@ -208,9 +214,9 @@ input[type=submit], #xb{
   margin-bottom: 10px;
 }
 .row {
-  height:80%;
-  background-color:silver;
-  width: 80%;
+  height:40%;
+  
+  width:80%;
   margin:0 auto;
 }
 
@@ -225,20 +231,22 @@ input[type=submit], #xb{
   border: 2px solid #34495e;
   box-shadow: 0 2px 2px black;
   box-sizing: border-box;
-  margin-top: 20px;
+  margin-top:0px;
   margin-left:5px;
-  background: red;
-  
+ 
   
 }
 
 #title {
   font-family: verdana;
-  margin-left:40px;
+  margin-left:5px;
   margin-bottom:2px;
-  color:orangered;
+  color:black;
   font-family: serif;
-  margin-top: 50px;
+  margin-top:10px;
+  padding: 10px;
+
+  padding-left:0;
 }
 #nav{
   margin-top:50px;
@@ -246,7 +254,14 @@ input[type=submit], #xb{
 }
 
 .content_base {
-  text-align: center;
+  height:50%;
+  background-color:#9DC5BB;
+  width: 50%;
+  margin: 0 auto;
+  color:#17B890;
+  border-radius: 5%;
+  padding-left:30px;
+
 
 }
 
@@ -254,4 +269,15 @@ input[type=submit], #xb{
 #pic{
   float: left;
 
+}
+
+#np{
+  width: 100px;
+  float: left;
+}
+
+#brand {
+  float:left;
+  padding-top:30px;
+  padding-left: 10px;
 }
