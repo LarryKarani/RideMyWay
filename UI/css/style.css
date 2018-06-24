@@ -9,9 +9,12 @@ body{
 header{
     background-color: #35424a;
     color: #ffffff;
-    padding-top: 30px;
     min-height: 70px;
     border-bottom:#e8491d 3px solid; 
+    width: 80%;
+    margin:0 auto;
+    margin-bottom:10px;
+  
   }
 
   header a, #nav a{
@@ -29,7 +32,8 @@ header{
   header li, #nav li{
     float:left;
     display: inline;
-    padding:0 10px 0 5px;
+    padding:0 30px 0 5px;
+  
   }
   header #branding{
     float: left;
@@ -189,7 +193,7 @@ input[type=submit], #xb{
 .card{
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.6);
   transition:0.4s;
-  width:50%;
+  width:30%;
   font-family: sans-serif;
   margin:0 auto;
   background: #ffffff;
@@ -197,6 +201,8 @@ input[type=submit], #xb{
   overflow: hidden;
   margin-bottom: 10px;
   padding-bottom: 10px;
+
+  float: left;
 }
 
 .card button{
@@ -268,4 +274,10 @@ input[type=submit], #xb{
 #np{
   width: 100px;
   float: left;
+}
+
+#brand {
+  float:left;
+  padding-top:30px;
+  padding-left: 10px;
 }
